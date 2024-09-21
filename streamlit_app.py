@@ -12,7 +12,7 @@ name = st.text_input("ENTER NAME")
 st.write("your name is ", name)
 
 
-session =snowflake.snowpark.context.get_active_session
+session =snowflake.snowpark.context.get_active_session()
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME')) 
 #st.dataframe(data=my_dataframe, use_container_width=True)
 
