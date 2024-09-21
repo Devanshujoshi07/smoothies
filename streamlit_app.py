@@ -10,8 +10,7 @@ st.write(
 
 
 name = st.text_input("ENTER NAME")
-st.write("your name is ", name)
-
+st.write("your name is ", name);
 
 session = get_active_session()
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME')) 
