@@ -1,8 +1,6 @@
 # Import python packages
 import streamlit as st
-import snowflake
-from snowflake import snowpark
-from snowflake.snowpark import functions as F
+
 
 # Write directly to the app
 st.title("CUSTOMIZE YOUR SMOOTHIE")
