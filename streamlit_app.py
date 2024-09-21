@@ -21,8 +21,8 @@ st.write("your name is ", name);
 
 INGREDIENTS_LIST= st.multiselect(
     "CHOOSE 5 FRUITS:"
-    , my_dataframe
-    , max_selections =5
+    #, my_dataframe
+     max_selections =5
 )
 st.write(INGREDIENTS_LIST)
 st.text(INGREDIENTS_LIST)
