@@ -31,14 +31,7 @@ for fruit_chosen in INGREDIENTS_LIST:
     ingredients +=fruit_chosen +' '
 #st.write(ingredients)
 
-my_insert_stmt = """ insert into smoothies.public.orders (ingredients,name_on_order) values ('""" + ingredients + """','""" +name+ """')"""
-st.write(my_insert_stmt)
-#st.stop();
-time_insert= st.button('SUBMIT ORDER'); 
 
-if time_insert:
-    session.sql(my_insert_stmt).collect()
-st.success('Your Smoothie is ordered,+name')
 
     
 
