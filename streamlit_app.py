@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-
+pip install requirement.txt
 # Write directly to the app
 st.title("CUSTOMIZE YOUR SMOOTHIE ")
 st.write(
